@@ -1,0 +1,2 @@
+INSERT INTO MAHASISWA (ID, NIM, Nama, Jurusan, TanggalLahir)
+VALUES (1, 23304001, 'Kresna Satria', 'Teknik Informatika', '1945-08-17'), (2, 23304036, 'Sachrul', 'Teknik Informatika', '1945-08-19'), (3, 23304035, 'Soekarno', 'Teknik Informatika', '1945-08-12'), (4, 233040029, 'Tyezar', 'Teknik Informatika', '2004-07-07'), (5, 23304002, 'Hatta', 'Teknik Informatika', '1946-08-17'), (6, 23304004, 'Asep', 'Teknik Informatika', '1945-08-11')
