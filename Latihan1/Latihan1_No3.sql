@@ -1,0 +1,2 @@
+--tabel `Sales.Customers` dan `Sales.Orders` tidak digunakan secara konsisten dalam kueri.
+--Alias yang telah diberikan adalah `C` untuk `Customers` dan `O` untuk `Orders`, namun dalam bagian `ON`, kueri masih menggunakan nama tabel asli `Customers.custid` dan `Orders.custid` tidak menggunakan alias yang sudah didefinisikan (`C.custid` dan `O.custid`).
