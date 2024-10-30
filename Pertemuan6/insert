@@ -1,0 +1,68 @@
+INSERT INTO [dbo].[Departments] (DepartmentName)
+    VALUES
+    ('human resource'),
+    ('finance'),
+    ('ID')
+
+INSERT INTO Departments (DepartmentName)
+VALUES
+    ('IT'),
+    ('Marketing');
+
+UPDATE Departments
+SET DepartmentName = 'Security'
+WHERE DepartmentsID = 3;
+
+
+INSERT INTO [dbo].[Employee] (Name, DepartmentsID, ManagerID) 
+VALUES
+('Andi', 1, 1),
+('Budi', 1, 1),
+('Citra', 1, 1),
+('Dian', 2, 2),
+('Edi', 2, 2),
+('Fajar', 2, 3),
+('Sadboy', 3, 3),
+('Hari', 3, 4),
+('Indah', 3, 4),
+('Joko', 1, 5),
+('Widodo', 1, 5),
+('Lina', 1, 6),
+('Maya', 3, 6),
+('Nina', 3, 7),
+('Omar', 3, 7);
+
+
+INSERT INTO Salaries (EmployeeID, Salaries)
+VALUES
+    (1, 5000.00),
+    (2, 4500.00),
+    (3, 4800.00),
+    (4, 4700.00),
+    (5, 5200.00),
+    (6, 4900.00),
+    (7, 5300.00),
+    (8, 5100.00),
+    (9, 4700.00),
+    (10, 4600.00),
+    (11, 4950.00),
+    (12, 4800.00),
+    (13, 5000.00),
+    (14, 4850.00),
+    (15, 5200.00);
+
+
+INSERT INTO Projects (ProjectName, DepartmentsID)
+VALUES
+    ('Project 1', 1),
+    ('Project 2', 2),
+    ('Project 3', 3),
+    ('Project 4', 1),
+    ('Project 5', 2),
+    ('Project 6', 3),
+    ('Project 7', 4),
+    ('Project 8', 4),
+    ('Project 9', 1),
+    ('Project 10', 2);
+
+
